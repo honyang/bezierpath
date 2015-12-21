@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CE3A09E1C27C37C00125660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3A09D1C27C37C00125660 /* main.m */; };
+		4CE3A0A11C27C37C00125660 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3A0A01C27C37C00125660 /* AppDelegate.m */; };
+		4CE3A0A41C27C37C00125660 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3A0A31C27C37C00125660 /* ViewController.m */; };
+		4CE3A0A71C27C37D00125660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE3A0A51C27C37D00125660 /* Main.storyboard */; };
+		4CE3A0AA1C27C37D00125660 /* Tandemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3A0A81C27C37D00125660 /* Tandemo.xcdatamodeld */; };
+		4CE3A0AC1C27C37D00125660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE3A0AB1C27C37D00125660 /* Assets.xcassets */; };
+		4CE3A0AF1C27C37D00125660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE3A0AD1C27C37D00125660 /* LaunchScreen.storyboard */; };
+		4CE3A0BA1C27C37D00125660 /* TandemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3A0B91C27C37D00125660 /* TandemoTests.m */; };
+		4CE3A0C51C27C37D00125660 /* TandemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3A0C41C27C37D00125660 /* TandemoUITests.m */; };
+		4CE3A0D41C27C39E00125660 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3A0D31C27C39E00125660 /* CustomView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CE3A0B61C27C37D00125660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CE3A0911C27C37C00125660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE3A0981C27C37C00125660;
+			remoteInfo = Tandemo;
+		};
+		4CE3A0C11C27C37D00125660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CE3A0911C27C37C00125660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE3A0981C27C37C00125660;
+			remoteInfo = Tandemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CE3A0991C27C37C00125660 /* Tandemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tandemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE3A09D1C27C37C00125660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CE3A09F1C27C37C00125660 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CE3A0A01C27C37C00125660 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CE3A0A21C27C37C00125660 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CE3A0A31C27C37C00125660 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CE3A0A61C27C37D00125660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CE3A0A91C27C37D00125660 /* Tandemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tandemo.xcdatamodel; sourceTree = "<group>"; };
+		4CE3A0AB1C27C37D00125660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CE3A0AE1C27C37D00125660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CE3A0B01C27C37D00125660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE3A0B51C27C37D00125660 /* TandemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TandemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE3A0B91C27C37D00125660 /* TandemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TandemoTests.m; sourceTree = "<group>"; };
+		4CE3A0BB1C27C37D00125660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE3A0C01C27C37D00125660 /* TandemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TandemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE3A0C41C27C37D00125660 /* TandemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TandemoUITests.m; sourceTree = "<group>"; };
+		4CE3A0C61C27C37D00125660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE3A0D21C27C39E00125660 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		4CE3A0D31C27C39E00125660 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CE3A0961C27C37C00125660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE3A0B21C27C37D00125660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE3A0BD1C27C37D00125660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CE3A0901C27C37C00125660 = {
+			isa = PBXGroup;
+			children = (
+				4CE3A09B1C27C37C00125660 /* Tandemo */,
+				4CE3A0B81C27C37D00125660 /* TandemoTests */,
+				4CE3A0C31C27C37D00125660 /* TandemoUITests */,
+				4CE3A09A1C27C37C00125660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CE3A09A1C27C37C00125660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CE3A0991C27C37C00125660 /* Tandemo.app */,
+				4CE3A0B51C27C37D00125660 /* TandemoTests.xctest */,
+				4CE3A0C01C27C37D00125660 /* TandemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CE3A09B1C27C37C00125660 /* Tandemo */ = {
+			isa = PBXGroup;
+			children = (
+				4CE3A09F1C27C37C00125660 /* AppDelegate.h */,
+				4CE3A0A01C27C37C00125660 /* AppDelegate.m */,
+				4CE3A0A21C27C37C00125660 /* ViewController.h */,
+				4CE3A0A31C27C37C00125660 /* ViewController.m */,
+				4CE3A0A51C27C37D00125660 /* Main.storyboard */,
+				4CE3A0AB1C27C37D00125660 /* Assets.xcassets */,
+				4CE3A0AD1C27C37D00125660 /* LaunchScreen.storyboard */,
+				4CE3A0B01C27C37D00125660 /* Info.plist */,
+				4CE3A0A81C27C37D00125660 /* Tandemo.xcdatamodeld */,
+				4CE3A09C1C27C37C00125660 /* Supporting Files */,
+				4CE3A0D21C27C39E00125660 /* CustomView.h */,
+				4CE3A0D31C27C39E00125660 /* CustomView.m */,
+			);
+			path = Tandemo;
+			sourceTree = "<group>";
+		};
+		4CE3A09C1C27C37C00125660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CE3A09D1C27C37C00125660 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CE3A0B81C27C37D00125660 /* TandemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CE3A0B91C27C37D00125660 /* TandemoTests.m */,
+				4CE3A0BB1C27C37D00125660 /* Info.plist */,
+			);
+			path = TandemoTests;
+			sourceTree = "<group>";
+		};
+		4CE3A0C31C27C37D00125660 /* TandemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CE3A0C41C27C37D00125660 /* TandemoUITests.m */,
+				4CE3A0C61C27C37D00125660 /* Info.plist */,
+			);
+			path = TandemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CE3A0981C27C37C00125660 /* Tandemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE3A0C91C27C37D00125660 /* Build configuration list for PBXNativeTarget "Tandemo" */;
+			buildPhases = (
+				4CE3A0951C27C37C00125660 /* Sources */,
+				4CE3A0961C27C37C00125660 /* Frameworks */,
+				4CE3A0971C27C37C00125660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tandemo;
+			productName = Tandemo;
+			productReference = 4CE3A0991C27C37C00125660 /* Tandemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CE3A0B41C27C37D00125660 /* TandemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE3A0CC1C27C37D00125660 /* Build configuration list for PBXNativeTarget "TandemoTests" */;
+			buildPhases = (
+				4CE3A0B11C27C37D00125660 /* Sources */,
+				4CE3A0B21C27C37D00125660 /* Frameworks */,
+				4CE3A0B31C27C37D00125660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CE3A0B71C27C37D00125660 /* PBXTargetDependency */,
+			);
+			name = TandemoTests;
+			productName = TandemoTests;
+			productReference = 4CE3A0B51C27C37D00125660 /* TandemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CE3A0BF1C27C37D00125660 /* TandemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE3A0CF1C27C37D00125660 /* Build configuration list for PBXNativeTarget "TandemoUITests" */;
+			buildPhases = (
+				4CE3A0BC1C27C37D00125660 /* Sources */,
+				4CE3A0BD1C27C37D00125660 /* Frameworks */,
+				4CE3A0BE1C27C37D00125660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CE3A0C21C27C37D00125660 /* PBXTargetDependency */,
+			);
+			name = TandemoUITests;
+			productName = TandemoUITests;
+			productReference = 4CE3A0C01C27C37D00125660 /* TandemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CE3A0911C27C37C00125660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Enjoyor;
+				TargetAttributes = {
+					4CE3A0981C27C37C00125660 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					4CE3A0B41C27C37D00125660 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4CE3A0981C27C37C00125660;
+					};
+					4CE3A0BF1C27C37D00125660 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4CE3A0981C27C37C00125660;
+					};
+				};
+			};
+			buildConfigurationList = 4CE3A0941C27C37C00125660 /* Build configuration list for PBXProject "Tandemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CE3A0901C27C37C00125660;
+			productRefGroup = 4CE3A09A1C27C37C00125660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CE3A0981C27C37C00125660 /* Tandemo */,
+				4CE3A0B41C27C37D00125660 /* TandemoTests */,
+				4CE3A0BF1C27C37D00125660 /* TandemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CE3A0971C27C37C00125660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE3A0AF1C27C37D00125660 /* LaunchScreen.storyboard in Resources */,
+				4CE3A0AC1C27C37D00125660 /* Assets.xcassets in Resources */,
+				4CE3A0A71C27C37D00125660 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE3A0B31C27C37D00125660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE3A0BE1C27C37D00125660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CE3A0951C27C37C00125660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE3A0D41C27C39E00125660 /* CustomView.m in Sources */,
+				4CE3A0AA1C27C37D00125660 /* Tandemo.xcdatamodeld in Sources */,
+				4CE3A0A41C27C37C00125660 /* ViewController.m in Sources */,
+				4CE3A0A11C27C37C00125660 /* AppDelegate.m in Sources */,
+				4CE3A09E1C27C37C00125660 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE3A0B11C27C37D00125660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE3A0BA1C27C37D00125660 /* TandemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE3A0BC1C27C37D00125660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE3A0C51C27C37D00125660 /* TandemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CE3A0B71C27C37D00125660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CE3A0981C27C37C00125660 /* Tandemo */;
+			targetProxy = 4CE3A0B61C27C37D00125660 /* PBXContainerItemProxy */;
+		};
+		4CE3A0C21C27C37D00125660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CE3A0981C27C37C00125660 /* Tandemo */;
+			targetProxy = 4CE3A0C11C27C37D00125660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CE3A0A51C27C37D00125660 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE3A0A61C27C37D00125660 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CE3A0AD1C27C37D00125660 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE3A0AE1C27C37D00125660 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CE3A0C71C27C37D00125660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CE3A0C81C27C37D00125660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CE3A0CA1C27C37D00125660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tandemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enjoyor.rio.Tandemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CE3A0CB1C27C37D00125660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tandemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enjoyor.rio.Tandemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CE3A0CD1C27C37D00125660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TandemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enjoyor.rio.TandemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tandemo.app/Tandemo";
+			};
+			name = Debug;
+		};
+		4CE3A0CE1C27C37D00125660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TandemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enjoyor.rio.TandemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tandemo.app/Tandemo";
+			};
+			name = Release;
+		};
+		4CE3A0D01C27C37D00125660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TandemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enjoyor.rio.TandemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tandemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4CE3A0D11C27C37D00125660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TandemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enjoyor.rio.TandemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tandemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CE3A0941C27C37C00125660 /* Build configuration list for PBXProject "Tandemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE3A0C71C27C37D00125660 /* Debug */,
+				4CE3A0C81C27C37D00125660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE3A0C91C27C37D00125660 /* Build configuration list for PBXNativeTarget "Tandemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE3A0CA1C27C37D00125660 /* Debug */,
+				4CE3A0CB1C27C37D00125660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CE3A0CC1C27C37D00125660 /* Build configuration list for PBXNativeTarget "TandemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE3A0CD1C27C37D00125660 /* Debug */,
+				4CE3A0CE1C27C37D00125660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CE3A0CF1C27C37D00125660 /* Build configuration list for PBXNativeTarget "TandemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE3A0D01C27C37D00125660 /* Debug */,
+				4CE3A0D11C27C37D00125660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CE3A0A81C27C37D00125660 /* Tandemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CE3A0A91C27C37D00125660 /* Tandemo.xcdatamodel */,
+			);
+			currentVersion = 4CE3A0A91C27C37D00125660 /* Tandemo.xcdatamodel */;
+			path = Tandemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CE3A0911C27C37C00125660 /* Project object */;
+}
